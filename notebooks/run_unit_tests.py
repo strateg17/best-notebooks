@@ -8,6 +8,10 @@
 
 # COMMAND ----------
 
+# MAGIC %pip install pytest
+
+# COMMAND ----------
+
 # pytest.main runs our tests directly in the notebook environment, providing
 # fidelity for Spark and other configuration variables.
 #
